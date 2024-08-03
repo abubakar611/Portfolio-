@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Abubakar Sadiq Junaid</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a</li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamb-nav">
+        <div class="logo">Abubakar Sadiq Junaid</div>
+        <div class="hamb-menu">
+            <div class="hamb-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a</li>
+                <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assests/profile-pic.png" alt="Abubakar">
+        </div>
+        <div class="section__text">
+            <p class="section__text-p1">Hello, I'm</p>
+            <h1 class="title">Abubakar Junaid</h1>
+            <p class="section__text-p2">Cyber Security Expert</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./assests/resume.docx')"
+                >
+                    Download CV
+                    </button
+                >
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'"
+                >
+                    Contact Info
+            </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assests/linkedin.png" alt="Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'">
+
+                <img src="./assests/github.png" alt="github profile" class="icon" onclick="location.href='https://github.com/abubakar611/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+        
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-containers">
+                        <img 
+                        src="./assests/experience.png" 
+                        alt="experience icon"
+                        class="icon"
+                        >
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Frontend Development</p>
+                    </div>
+                    <div class="details-containers">
+                        <img 
+                        src="./assests/education.png" 
+                        alt="education icon"
+                        class="icon"
+                        >
+                        <h3>Education</h3>
+                        <p>Bachelors Degree<br>Cyber Security</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hello! I'm a dedicated cybersecurity student with strong skills in networking and network security.
+                        I'm adept at penetration testing, vulnerability assessment, 
+                        and securing systems. I have experience in full-stack development,
+                        proficient in both frontend (JavaScript) and backend (Python/Django, Node.js). 
+                        I also excel in Python and Java programming.
+                        My passion for problem-solving drives me to quickly learn and 
+                        apply complex concepts effectively.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="experience">
+        <p class="section__text-p1">Explore My</p>
+        <h1 class="section__text-p1">Experience</h1>
+        <div class="experience-detail-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-tittle">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon"
+                            class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <div class="about-details-container"></div>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon"
+                            class="icon">
+                            <div>
+                                <h3>KALI</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon"
+                            class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon"
+                            class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon"
+                            class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon"
+                            class="icon">
+                            <div>
+                                <h3>Cyber Security</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                    
+                        <div class="details-containers">
+                            <h2 class="experience-sub-tittle">Frontend Development</h2>
+                            <div class="article-container">
+                                <article>
+                                    <img src="./assests/checkmark.png" alt="experience icon"
+                                    class="icon">
+                                    <div>
+                                        <h3>Node js</h3>
+                                        <p>EIntermediate</p>
+                                    </div>
+                                </article>
+        
+                                <article>
+                                    <img src="./assests/checkmark.png" alt="experience icon"
+                                    class="icon">
+                                    <div>
+                                        <h3>Java Script</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+        
+                                <article>
+                                    <img src="./assests/checkmark.png" alt="experience icon"
+                                    class="icon">
+                                    <div>
+                                        <h3>Networking</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+        
+                                <article>
+                                    <img src="./assests/checkmark.png" alt="experience icon"
+                                    class="icon">
+                                    <div>
+                                        <h3>Git</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="projects">
+        <p class="section__text-p1">Explore My Projects</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assests/project-1.png" alt="project-1"
+                    class="project-img">
+                    <h2 class="experience-sub-tittle project-title">Chatroom</h2>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/abubakar611/chatroom'">Github</button>
+                    <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assests/project-2.png" alt="project-3"
+                    class="project-img">
+                    <h2 class="experience-sub-tittle project-title">User Auth</h2>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/abubakar611/django-authentication-system-'">Github</button>
+                    <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-containers color-container">
+                <div class="article-container">
+                    <img src="./assests/project-3.png" alt="project-1"
+                    class="project-img">
+                    <h2 class="experience-sub-tittle project-title">Farm</h2>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/abubakar611/farm'">Github</button>
+                    <button class="btn btn-color-2 Project-btn" onclick="location.href='https://abubakar611.github.io/farm/'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section id="Contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assests/email.png" alt="email" class="icon contact-icon email-icon">
+                <p><a href="mailto:abubakarjunaid611@gmail.com">abubakarjunaid611gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assests/linkedin.png" alt="linkedin" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Abubakar Junaid</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
